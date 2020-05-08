@@ -1,73 +1,65 @@
 public class Carro {
 
-    public String cor;
-    public String modelo;
-    public Double velocidadeAtual;
-    public final Double velocidadeMaxima;
+    private double velocidadeAtual;
+    private double velocidadeMaxima;
+    private boolean ligado;
 
-    public Boolean ligado = false;
 
-    public String getCor(){
-        return this.cor;
-    }
-
-    public void setCor(String cor){
-        this.cor = cores;
-    }
-
-    public String getModelo(){
-        return this.modelo;
-    }
-
-    public void setModelo(String modelo){
-        this.modelo = modelo;
-    }
 
     public Double getVelocidadeAtual(){
-        return this.velocidadeAtual;
+        return velocidadeAtual;
+    }
+
+    public void setVelocidadeAtual(double VelocidadeAtual) {
+        this.velocidadeAtual = VelocidadeAtual;
     }
 
     public Double getVelocidadeMaxima(){
-        return this.velocidadeMaxima;
+        return velocidadeMaxima;
+    }
+
+    public void setVelocidadeMaxima(double VelocidadeMaxima){
+        this.velocidadeMaxima = VelocidadeMaxima;
     }
 
     public Boolean getLigado(){
-        return this.ligado;
+        return ligado;
     }
 
-    public Carro(String cor, String modelo, Double velocidadeMáxima){
-        velocidadeAtual = 0;
-        this.cor = cor;
-        this.modelo = modelo;
-        this.velocidadeMaxima = velocidadeMaxima;
+    public void setLigado(Boolean ligado) {
+        this.ligado = ligado;
     }
+
 
 
 
     //liga o carro
-    public Boolean ligaedesliga() {
+    public Boolean ligaEDesliga() {
         if (!this.ligado){
             this.ligado = true;
-            System.out.println("O carro foi desligado");
+            System.out.println("O carro foi ligado");
         } else {
             this.ligado = false;
-            System.out.println("O carro foi ligado");
+            System.out.println("O carro foi desigado");
         }
         return this.ligado;
     }
     //acelera uma certa quantidade
-    public void acelera(Double quantidade) {
-        Double velocidadeNova = this.velocidadeAtual + quantidade;
+    public void acelera(double quantidade) {
+        double velocidadeNova = this.velocidadeAtual + quantidade;
         if (velocidadeNova < this.velocidadeMaxima){
             this.velocidadeAtual = velocidadeNova;
+
+        }else {
+            System.out.println("O carro não suporta essa velocidade");
         }
     }
     //devolve a marcha do carro
     public Integer pegaMarcha() {
-        if (this.velocidadeAtual < 0,0) {
+        if (this.velocidadeAtual < 0.0) {
             return -1;
         }
-        if (this.velocidadeAtual >= 0.00 || this.velocidadeAtual < 40) {
+        if (this.velocidadeAtual >= 0.00 && this.velocidadeAtual < 40) {
             return 1;
         }
         if (this.velocidadeAtual >= 40 && this.velocidadeAtual < 80) {
