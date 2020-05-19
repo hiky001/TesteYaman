@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.*;
 
-public class Teste {
+public class TesteCarro {
     private static Carro fusca = new Carro();
 
     @BeforeAll

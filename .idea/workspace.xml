@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4a401d-d8b0-4386-ae57-8016c739959d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TesteMoto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$ANDROID_HOME$" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,6 +64,26 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TesteMoto.testeModelo">
+    <configuration name="TesteCarro.testeLigadoOuNao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteYaman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteCarro" />
+      <option name="METHOD_NAME" value="testeLigadoOuNao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteCarro.testeMarcha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteYaman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteCarro" />
+      <option name="METHOD_NAME" value="testeMarcha" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteMoto.TesteCor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteYaman" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,33 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.testeLigadoOuNao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteYaman" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="testeLigadoOuNao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Teste.testeMarcha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteYaman" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="testeMarcha" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TesteMoto.testeModelo" />
         <item itemvalue="JUnit.TesteMoto.testeCor" />
         <item itemvalue="JUnit.TesteMoto.TesteCor" />
-        <item itemvalue="JUnit.Teste.testeLigadoOuNao" />
-        <item itemvalue="JUnit.Teste.testeMarcha" />
+        <item itemvalue="JUnit.TesteCarro.testeLigadoOuNao" />
+        <item itemvalue="JUnit.TesteCarro.testeMarcha" />
       </list>
     </recent_temporary>
   </component>
@@ -165,22 +158,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588791840686" />
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1588897811129">
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1588898016512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588897811129" />
-    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1588897811129">
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588898016512" />
+    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1588898016511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588897811129" />
-    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1588897811129">
+    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588898016511" />
+    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1588898016511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588897811129" />
-    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1588897811129">
+    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588898016511" />
+    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1588898016512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588897811129" />
+    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588898016512" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588896988088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
